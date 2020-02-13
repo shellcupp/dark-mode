@@ -1,7 +1,7 @@
   
 import React, { useState } from 'react';
 import useDarkMode from '../hooks/useDarkMode';
-
+//Replace the state hook with our hook, click the toggle, and watch the magic happen!!!
 const Navbar = (key, initialValue) => {
   const [value, toggleMode] = useDarkMode('key', initialValue);
   
